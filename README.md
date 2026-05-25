@@ -1,24 +1,5 @@
 # Solving Optimal Stopping Problems with Reinforcement Learning
 
-
-
-Optimal stopping problems arise throughout finance, operations research and engineering, where one must decide the best time to stop a stochastic process and lock in a reward under uncertainty.
-
-When the underlying dynamics are not fully known, reinforcement learning offers a powerful data‑driven alternative to the traditional methods that require the model parameters to be specified beforehand.
-
-This thesis introduces a unified reinforcement learning framework for several classes of optimal stopping problems, using controlled exploration to regularise the stopping decision and facilitate stable policy iteration.
-
-Starting from the entropy‑regularised stochastic control problem, we recast optimal stopping as a smooth intensity‑based control problem, enabling monotone policy iteration.
-
-From there, we apply this reinforcement‑learning approach to double stopping problems, where the agent has to determine multiple optimal stopping times based on the same information flow.
-
-The main contributions of this thesis arise from our final investigation of time‑inconsistent stopping problems, where the optimal decision of the agent can change over time as the discounting factor of the reward is no longer exponential.
-
-In discrete time, we formulate this as an entropy‑regularised problem with an induced stopping probability.
-
-In continuous time, we instead employ a randomised stopping intensity and derive the corresponding weak‑equilibrium HJB equation.
-
-
+Optimal stopping problems arise throughout finance, operations research and engineering, where one must decide the best time to stop a stochastic process and lock in a reward under uncertainty. When the underlying dynamics are not fully known, reinforcement learning offers a powerful data‑driven alternative to the traditional methods that require the model parameters to be specified beforehand. This thesis introduces a unified reinforcement learning framework for several classes of optimal stopping problems, using controlled exploration to regularise the stopping decision and facilitate stable policy iteration. Starting from the entropy‑regularised stochastic control problem, we recast optimal stopping as a smooth intensity‑based control problem, enabling monotone policy iteration. From there, we apply this reinforcement‑learning approach to double stopping problems, where the agent has to determine multiple optimal stopping times based on the same information flow. The main contributions of this thesis arise from our final investigation of time‑inconsistent stopping problems, where the optimal decision of the agent can change over time as the discounting factor of the reward is no longer exponential. In discrete time, we formulate this as an entropy‑regularised problem with an induced stopping probability. In continuous time, we instead employ a randomised stopping intensity and derive the corresponding weak‑equilibrium HJB equation.
 
 This repository contains the python implementation of the algorithms and numerical experiments presented in the accompanying thesis.
-
